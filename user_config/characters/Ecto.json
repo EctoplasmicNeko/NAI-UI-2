@@ -1,0 +1,501 @@
+{
+  "nameID": "Ecto",
+  "full_name": "Ectoplasmic Neko",
+  "c_positive": [
+    {
+      "tag": "girl",
+      "strength": 1.0
+    },
+    {
+      "tag": "pale skin",
+      "strength": 1.0
+    },
+    {
+      "tag": "pale blue hair",
+      "strength": 1.0
+    },
+    {
+      "tag": "blank white eyes",
+      "strength": 1.0
+    },
+    {
+      "tag": "cat ears",
+      "strength": 1.0
+    },
+    {
+      "tag": "glowing blue",
+      "strength": 1.0
+    },
+    {
+      "tag": "flaming tail",
+      "strength": 1.0
+    },
+    {
+      "tag": "blue flames on tail",
+      "strength": 1.0
+    },
+    {
+      "tag": "long hair",
+      "strength": 1.0
+    }
+  ],
+  "c_negative": [],
+  "g_positive": [],
+  "g_negative": [
+    {
+      "tag": "cat",
+      "strength": 1.0
+    }
+  ],
+  "chance_tag": [],
+  "age": "???",
+  "gender": "Female",
+  "species": "Dead Felinid",
+  "subspecies": "Poltergeist",
+  "species icon": "Cat",
+  "labels": [
+    {
+      "category": "Gender",
+      "label": "Female"
+    },
+    {
+      "category": "Sort Priority",
+      "label": "Minor"
+    }
+  ],
+  "quick_weights": [
+    {
+      "max": 1.5,
+      "min": -1.5,
+      "negative": false,
+      "tag": "These are tags",
+      "value": 1.0
+    },
+    {
+      "max": 1.5,
+      "min": -1.5,
+      "negative": false,
+      "tag": "That you can",
+      "value": 1.0
+    },
+    {
+      "max": 1.5,
+      "min": -1.5,
+      "negative": false,
+      "tag": "Change the value",
+      "value": 0.5
+    },
+    {
+      "max": 1.5,
+      "min": -1.5,
+      "negative": false,
+      "tag": "of easilly",
+      "value": 0.0
+    }
+  ],
+  "quotes": [
+    "I live in the computer. It's warm in there. Don't turn it off.",
+    "I didn't delete it. It was already corrupted. Probably.",
+    "Vesper and I don't talk about the hallway. That's the agreement."
+  ],
+  "outfits": [
+    {
+      "name": "School Uniform",
+      "role": "School Uniform",
+      "modifier": [],
+      "description": "A ghostly take on the standard uniform: translucent blouse with ethereal shimmer, navy skirt, and silver neck ribbon.",
+      "slots": {
+        "upper_garment": {
+          "positive": [
+            {
+              "tag": "semi-transparent blouse",
+              "strength": 1.0
+            },
+            {
+              "tag": "shimmering fabric",
+              "strength": 1.0
+            },
+            {
+              "tag": "spectral uniform",
+              "strength": 1.0
+            }
+          ],
+          "negative": []
+        },
+        "lower_garment": {
+          "positive": [
+            {
+              "tag": "navy skirt",
+              "strength": 1.0
+            }
+          ],
+          "negative": []
+        },
+        "shoes": {
+          "positive": [],
+          "negative": []
+        },
+        "socks": {
+          "positive": [],
+          "negative": []
+        },
+        "head": {
+          "positive": [
+            {
+              "tag": "silver ribbon",
+              "strength": 1.0
+            }
+          ],
+          "negative": []
+        },
+        "arms": {
+          "positive": [],
+          "negative": []
+        },
+        "other": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "remove": []
+    },
+    {
+      "name": "Pajamas",
+      "role": "Pajamas",
+      "modifier": [],
+      "description": "A long white sleep robe with tattered edges and faint glowing blue seams.",
+      "slots": {
+        "upper_garment": {
+          "positive": [
+            {
+              "tag": "white robe",
+              "strength": 1.0
+            },
+            {
+              "tag": "glowing trim",
+              "strength": 1.0
+            },
+            {
+              "tag": "tattered hem",
+              "strength": 1.0
+            },
+            {
+              "tag": "long sleepwear",
+              "strength": 1.0
+            },
+            {
+              "tag": "ghost aesthetic",
+              "strength": 1.0
+            }
+          ],
+          "negative": []
+        },
+        "lower_garment": {
+          "positive": [],
+          "negative": []
+        },
+        "shoes": {
+          "positive": [],
+          "negative": []
+        },
+        "socks": {
+          "positive": [],
+          "negative": []
+        },
+        "head": {
+          "positive": [],
+          "negative": []
+        },
+        "arms": {
+          "positive": [],
+          "negative": []
+        },
+        "other": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "remove": []
+    },
+    {
+      "name": "Underwear",
+      "role": "Underwear",
+      "modifier": [],
+      "description": "A wispy pale blue camisole and matching translucent briefs with faint flame patterning.",
+      "slots": {
+        "upper_garment": {
+          "positive": [
+            {
+              "tag": "blue underwear",
+              "strength": 1.0
+            },
+            {
+              "tag": "translucent fabric",
+              "strength": 1.0
+            },
+            {
+              "tag": "camisole",
+              "strength": 1.0
+            },
+            {
+              "tag": "spectral motif",
+              "strength": 1.0
+            },
+            {
+              "tag": "underwear",
+              "strength": 1.0
+            }
+          ],
+          "negative": []
+        },
+        "lower_garment": {
+          "positive": [],
+          "negative": []
+        },
+        "shoes": {
+          "positive": [],
+          "negative": []
+        },
+        "socks": {
+          "positive": [],
+          "negative": []
+        },
+        "head": {
+          "positive": [],
+          "negative": []
+        },
+        "arms": {
+          "positive": [],
+          "negative": []
+        },
+        "other": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "remove": []
+    },
+    {
+      "name": "Warm Weather Casual",
+      "role": "Warm Weather",
+      "modifier": [],
+      "description": "A sleeveless hoodie in smoky gray, gauzy skirt that moves like mist, and bare feet.",
+      "slots": {
+        "upper_garment": {
+          "positive": [
+            {
+              "tag": "sleeveless hoodie",
+              "strength": 1.0
+            }
+          ],
+          "negative": []
+        },
+        "lower_garment": {
+          "positive": [
+            {
+              "tag": "gauzy skirt",
+              "strength": 1.0
+            },
+            {
+              "tag": "gray fabric",
+              "strength": 1.0
+            },
+            {
+              "tag": "airy material",
+              "strength": 1.0
+            },
+            {
+              "tag": "ghostly theme",
+              "strength": 1.0
+            }
+          ],
+          "negative": []
+        },
+        "shoes": {
+          "positive": [],
+          "negative": []
+        },
+        "socks": {
+          "positive": [],
+          "negative": []
+        },
+        "head": {
+          "positive": [],
+          "negative": []
+        },
+        "arms": {
+          "positive": [],
+          "negative": []
+        },
+        "other": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "remove": []
+    },
+    {
+      "name": "Cold Weather Casual",
+      "role": "Cold Weather",
+      "modifier": [],
+      "description": "A long spectral cloak with faded blue runes, worn over a layered dress of gauze and linen.",
+      "slots": {
+        "upper_garment": {
+          "positive": [
+            {
+              "tag": "spectral cloak",
+              "strength": 1.0
+            },
+            {
+              "tag": "runic markings",
+              "strength": 1.0
+            },
+            {
+              "tag": "gauze fabric",
+              "strength": 1.0
+            },
+            {
+              "tag": "layered linen",
+              "strength": 1.0
+            },
+            {
+              "tag": "magical cold weather wear",
+              "strength": 1.0
+            }
+          ],
+          "negative": []
+        },
+        "lower_garment": {
+          "positive": [],
+          "negative": []
+        },
+        "shoes": {
+          "positive": [],
+          "negative": []
+        },
+        "socks": {
+          "positive": [],
+          "negative": []
+        },
+        "head": {
+          "positive": [],
+          "negative": []
+        },
+        "arms": {
+          "positive": [],
+          "negative": []
+        },
+        "other": {
+          "positive": [],
+          "negative": []
+        }
+      },
+      "remove": []
+    }
+  ],
+  "most_recent_outfit": "None",
+  "tag_associations": [
+    {
+      "name": "Remove Tail",
+      "active": true,
+      "trigger": [
+        [
+          "-tail"
+        ]
+      ],
+      "trigger_absent": false,
+      "inject": [],
+      "blacklist": [],
+      "remove": [
+        "tail",
+        "blue flames on tail",
+        "flaming tail"
+      ],
+      "remove_triggers": true,
+      "negative_injection": false
+    },
+    {
+      "name": "Negative Tail",
+      "active": true,
+      "trigger": [
+        [
+          "-tail"
+        ]
+      ],
+      "trigger_absent": false,
+      "inject": [
+        {
+          "tag": "tail",
+          "strength": 1.0
+        },
+        {
+          "tag": "cat tail",
+          "strength": 1.0
+        }
+      ],
+      "blacklist": [],
+      "remove": [],
+      "remove_triggers": true,
+      "negative_injection": true
+    },
+    {
+      "name": "Closed Eyes",
+      "active": true,
+      "trigger": [
+        [
+          "asleep",
+          "sleeping",
+          "closed eyes",
+          "unconscious",
+          "unconcious"
+        ]
+      ],
+      "trigger_absent": false,
+      "inject": [],
+      "blacklist": [],
+      "remove": [
+        "blank white eyes"
+      ],
+      "remove_triggers": false,
+      "negative_injection": false
+    },
+    {
+      "name": "From Behind",
+      "active": true,
+      "trigger": [
+        [
+          "from behind"
+        ]
+      ],
+      "trigger_absent": false,
+      "inject": [],
+      "blacklist": [
+        "looking back",
+        "looking back at viewer"
+      ],
+      "remove": [
+        "blank white eyes"
+      ],
+      "remove_triggers": false,
+      "negative_injection": false
+    }
+  ],
+  "sort_position": 33,
+  "default_expression": [],
+  "birthday": {
+    "day": 0,
+    "month": 0,
+    "year": 0,
+    "era": ""
+  },
+  "notes": "",
+  "friends": [],
+  "Family": [],
+  "school": "",
+  "class": "",
+  "exclude_from_character_list": false,
+  "label_groups": [],
+  "Associates": [],
+  "Alias_ID": "",
+  "lore": []
+}

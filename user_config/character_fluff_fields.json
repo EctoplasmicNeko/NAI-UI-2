@@ -1,0 +1,9 @@
+[
+  {"key": "birthday", "label": "Birthday", "type": "birthday"},
+  {"key": "notes", "label": "Notes", "multiline": true},
+  {"key": "friends", "label": "Friends", "type": "character_pool"},
+  {"key": "Family", "label": "Family", "type": "character_pool"},
+  {"key": "Associates", "label": "Associates", "type": "character_pool"},
+  {"key": "school", "label": "School"},
+  {"key": "class", "label": "Class"}
+]

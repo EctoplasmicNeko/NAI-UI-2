@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "Gender",
+      "include_in_filters": true
+    },
+    {
+      "name": "Sort Priority",
+      "include_in_filters": false
+    }
+  ],
+  "labels": [
+    {
+      "category": "Gender",
+      "label": "Female"
+    },
+    {
+      "category": "Gender",
+      "label": "Male"
+    },
+    {
+      "category": "Gender",
+      "label": "Other"
+    },
+    {
+      "category": "Sort Priority",
+      "label": "Main"
+    },
+    {
+      "category": "Sort Priority",
+      "label": "Supporting"
+    },
+    {
+      "category": "Sort Priority",
+      "label": "Minor"
+    }
+  ]
+}
