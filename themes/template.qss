@@ -1,0 +1,250 @@
+QWidget {
+    background-color: {{WINDOW_BG}};
+    color: {{TEXT}};
+}
+
+QFrame {
+    background-color: {{PANEL_BG}};
+}
+
+QPushButton {
+    background-color: {{BUTTON_BG}};
+    border: 1px solid {{BORDER}};
+}
+
+QPushButton:hover {
+    background-color: {{BUTTON_HOVER_BG}};
+}
+
+#positive_prompt_title_bar QPushButton[has_prompt_content="true"]:!checked,
+#negative_prompt_title_bar QPushButton[has_prompt_content="true"]:!checked {
+    background-color: {{PROMPT_CONTENT_BG}};
+}
+
+QPushButton:checked {
+    background-color: {{BUTTON_CHECKED_BG}};
+    border: 1px solid {{BUTTON_CHECKED_BORDER}};
+}
+
+QPushButton:disabled {
+    background-color: {{BUTTON_DISABLED_BG}};
+    border: 1px solid {{BORDER}};
+    color: {{DISABLED_TEXT}};
+}
+
+QAbstractSpinBox {
+    selection-background-color: transparent;
+    selection-color: {{TEXT}};
+}
+
+QAbstractSpinBox:disabled {
+    selection-background-color: transparent;
+    selection-color: {{TEXT}};
+    color: {{DISABLED_TEXT}};
+}
+
+QLabel {
+    background-color: {{PANEL_BG}};
+    border: 1px solid {{BORDER}};
+}
+
+QScrollBar:vertical {
+    width: 10px;
+    background: transparent;
+    margin: 4px 2px 4px 0;
+}
+
+QScrollBar::handle:vertical {
+    min-height: 24px;
+    border-radius: 4px;
+    background: {{SCROLLBAR_HANDLE}};
+}
+
+QScrollBar::handle:vertical:hover {
+    background: {{SCROLLBAR_HANDLE_HOVER}};
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QFrame#debug_info_tab QScrollBar:horizontal {
+    height: 10px;
+    background: transparent;
+    margin: 0 4px 2px 4px;
+}
+
+QFrame#debug_info_tab QScrollBar::handle:horizontal {
+    min-width: 24px;
+    border-radius: 4px;
+    background: {{SCROLLBAR_HANDLE}};
+}
+
+QFrame#debug_info_tab QScrollBar::handle:horizontal:hover {
+    background: {{SCROLLBAR_HANDLE_HOVER}};
+}
+
+QFrame#debug_info_tab QScrollBar::add-line:horizontal,
+QFrame#debug_info_tab QScrollBar::sub-line:horizontal {
+    width: 0px;
+}
+
+QFrame#debug_info_tab QScrollBar::add-page:horizontal,
+QFrame#debug_info_tab QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+QCheckBox {
+    background-color: transparent;
+}
+
+QCheckBox:disabled {
+    color: {{DISABLED_TEXT}};
+}
+
+QCheckBox::indicator:checked {
+    background-color: {{BUTTON_CHECKED_BG}};
+    border: 1px solid {{CHECKBOX_CHECKED_BORDER}};
+    border-radius: 4px;
+    image: none;
+}
+
+QProgressBar {
+    border: 1px solid {{PROGRESS_BORDER}};
+    border-radius: 3px;
+    background-color: {{PROGRESS_BG}};
+    padding: 1px;
+}
+
+QListWidget {
+    background: {{LIST_BG}};
+    border: 1px solid {{LIST_BORDER}};
+    border-radius: 8px;
+    color: {{LIST_TEXT}};
+    outline: 0;
+}
+
+QListWidget::item {
+    padding: 6px 10px;
+    margin: 2px 6px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
+
+QListWidget::item:hover {
+    background: {{LIST_HOVER_BG}};
+}
+
+QListWidget::item:selected {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 0, y2: 1,
+        stop: 0 {{LIST_SELECTED_START}},
+        stop: 1 {{LIST_SELECTED_END}}
+    );
+    border: 1px solid {{LIST_SELECTED_BORDER}};
+    color: {{LIST_SELECTED_TEXT}};
+}
+
+QListWidget::item:selected:hover {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 0, y2: 1,
+        stop: 0 {{LIST_SELECTED_HOVER_START}},
+        stop: 1 {{LIST_SELECTED_HOVER_END}}
+    );
+}
+
+QListWidget::item:selected:!active {
+    background: {{LIST_INACTIVE_BG}};
+    border: 1px solid {{LIST_INACTIVE_BORDER}};
+    color: {{LIST_INACTIVE_TEXT}};
+}
+
+QListWidget::item:disabled {
+    color: {{LIST_DISABLED_TEXT}};
+}
+
+#left_column {
+    border-right: 2px solid {{BORDER}};
+}
+
+#centre_right_divider {
+    background-color: {{BORDER}};
+}
+
+#generate_progress_loop_bar::chunk {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 {{LOOP_PROGRESS_EDGE}},
+        stop: 0.5 {{LOOP_PROGRESS_CENTER}},
+        stop: 1 {{LOOP_PROGRESS_EDGE}}
+    );
+    border-radius: 2px;
+    margin: 0;
+}
+
+#generate_progress_set_bar::chunk {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 {{SET_PROGRESS_EDGE}},
+        stop: 0.5 {{SET_PROGRESS_CENTER}},
+        stop: 1 {{SET_PROGRESS_EDGE}}
+    );
+    border-radius: 2px;
+    margin: 0;
+}
+
+#account_anlas_bar::chunk {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 #C49A16,
+        stop: 0.5 #FFE066,
+        stop: 1 #C49A16
+    );
+    border-radius: 2px;
+    margin: 0;
+}
+
+#account_v5_usage_bar::chunk {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 0,
+        stop: 0 #239447,
+        stop: 0.5 #69E890,
+        stop: 1 #239447
+    );
+    border-radius: 2px;
+    margin: 0;
+}
+
+QComboBox {
+    selection-background-color: transparent;
+    selection-color: palette(text);
+}
+
+QFrame#mainUI QLabel,
+QFrame#mainUI QScrollArea,
+QFrame#mainUI QStackedWidget {
+    border: none;
+}
+
+QFrame#mainUI QFrame#positive_prompt_title_bar QLabel,
+QFrame#mainUI QFrame#negative_prompt_title_bar QLabel {
+    border-top: 1px solid {{BORDER}};
+    border-bottom: 1px solid {{BORDER}};
+}
+
+QFrame#mainUI QPushButton#positive_character_button,
+QFrame#mainUI QPushButton#positive_static_button,
+QFrame#mainUI QPushButton#positive_global_button,
+QFrame#mainUI QPushButton#positive_prompt_delete_button,
+QFrame#mainUI QPushButton#negative_character_button,
+QFrame#mainUI QPushButton#negative_static_button,
+QFrame#mainUI QPushButton#negative_global_button,
+QFrame#mainUI QPushButton#negative_prompt_delete_button {
+    border-left: none;
+}
